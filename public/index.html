@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <title>Quiz Race</title>
+    </head>
+    <body class="bg-dark text-light">
+        <div id="start" class="container mt-5">
+            <h1>Quiz Race</h1>
+            <div class="row mt-2">
+                <div class="col-lg-10">
+                    <input
+                        type="text"
+                        id="room-name-input"
+                        class="form-control"
+                        placeholder="Nama Room"
+                    />
+                </div>
+                <div class="col-lg-2">
+                    <button id="join-room" class="form-control">
+                        Masuk Room
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="room" class="container mt-5" style="display: none">
+            <h1 id="room-name">Room -</h1>
+            <ul class="list-group" id="player-list">
+                <!-- <li class="list-group-item"></li> -->
+            </ul>
+            <button
+                id="start-game"
+                class="btn btn-light mt-3 w-100"
+                style="display: none"
+            >
+                Mulai
+            </button>
+        </div>
+        <div id="game" class="container mt-5" style="display: none">
+            <h1 id="quiz-title"></h1>
+            <h2 id="quiz-description"></h2>
+            <button
+                type="button"
+                class="btn btn-light"
+                id="chat-toggle"
+                data-bs-toggle="modal"
+                data-bs-target="#chat-modal"
+            >
+                Chat
+                <!-- <span class="badge bg-secondary">2</span> -->
+            </button>
+            <h3 class="mt-5" id="question"></h3>
+            <form class="mt-3 mb-3" id="answer-form">
+                <div class="input-group">
+                    <input
+                        type="text"
+                        class="form-control bg-dark text-light"
+                        autocomplete="off"
+                        id="answer-box"
+                        placeholder="Jawab Disini"
+                        required
+                    />
+                    <button class="btn btn-light" type="submit">Jawab</button>
+                </div>
+            </form>
+            <ul class="list-group mt-5" id="players-progress">
+                <!-- <li class="list-group-item">
+                    Player Name
+                    <div class="progress mt-1">
+                        <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 5%"
+                        >
+                            1
+                        </div>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+
+        <!-- Chat -->
+        <div
+            class="modal fade"
+            id="chat-modal"
+            tabindex="-1"
+            aria-labelledby="chat-modal-label"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-dark">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="chat-modal-label">Chat</h5>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-white"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div
+                        class="modal-body"
+                        style="height: 60vh; overflow-y: scroll"
+                        id="chat-list"
+                    >
+                        <!-- <div class="card mb-2 text-dark">
+                            <div class="card-body">
+                                <h5 class="card-title">Player Name</h5>
+                                <p class="card-text">Message</p>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="modal-footer">
+                        <form class="mt-3 mb-3 w-100" id="chat-form">
+                            <div class="input-group">
+                                <input
+                                    type="text"
+                                    class="form-control bg-dark text-light"
+                                    autocomplete="off"
+                                    id="chat-msg"
+                                    required
+                                    placeholder="Chat"
+                                />
+                                <button class="btn btn-light" type="submit">
+                                    Kirim
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <audio src="audio/correct.mp3" id="correct-sound"></audio>
+        <audio src="audio/incorrect.mp3" id="incorrect-sound"></audio>
+
+        <script src="socket.io/socket.io.js"></script>
+        <script src="js/sweetalert.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

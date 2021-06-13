@@ -1,0 +1,93 @@
+{
+    "QuizList": [
+        {
+            "data": {
+                "name": "Matematika",
+                "description": "Quiz Matematika",
+                "author": "EmangGek"
+            },
+            "questions": [
+                {
+                    "question": "100 + 120",
+                    "answer": "220"
+                },
+                {
+                    "question": "250 + 1050",
+                    "answer": "1300"
+                },
+                {
+                    "question": "0 x 100",
+                    "answer": "0"
+                },
+                {
+                    "question": "50 x 2",
+                    "answer": "100"
+                },
+                {
+                    "question": "1000 + 105",
+                    "answer": "1105"
+                },
+                {
+                    "question": "500 x 2",
+                    "answer": "1000"
+                },
+                {
+                    "question": "2 x 15",
+                    "answer": "30"
+                },
+                {
+                    "question": "10 x 15",
+                    "answer": "150"
+                },
+                {
+                    "question": "120 - 15",
+                    "answer": "105"
+                },
+                {
+                    "question": "1005 - 150",
+                    "answer": "855"
+                },
+                {
+                    "question": "120 / 6",
+                    "answer": "20"
+                },
+                {
+                    "question": "10 x 5",
+                    "answer": "50"
+                },
+                {
+                    "question": "500 / 25",
+                    "answer": "20"
+                },
+                {
+                    "question": "1 + 1 x 2",
+                    "answer": "3"
+                },
+                {
+                    "question": "50 + 20 x 100",
+                    "answer": "2050"
+                },
+                {
+                    "question": "25 / 2 x 10",
+                    "answer": "125"
+                },
+                {
+                    "question": "120 + 50 x 2",
+                    "answer": "220"
+                },
+                {
+                    "question": "50 x 2 + 1",
+                    "answer": "101"
+                },
+                {
+                    "question": "50 - 10 x 2",
+                    "answer": "30"
+                },
+                {
+                    "question": "50 - 10 x 4",
+                    "answer": "10"
+                }
+            ]
+        }
+    ]
+}
