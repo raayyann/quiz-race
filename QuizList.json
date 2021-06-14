@@ -88,6 +88,95 @@
                     "answer": "10"
                 }
             ]
+        },
+        {
+            "data": {
+                "name": "Tata Surya",
+                "description": "Quiz Tentang Tata Surya",
+                "author": "EmangGek"
+            },
+            "questions": [
+                {
+                    "question": "Planet apa yang terdekat dari matahari?",
+                    "answer": "merkurius"
+                },
+                {
+                    "question": "Planet apa yang terjauh dari matahari?",
+                    "answer": "neptunus"
+                },
+                {
+                    "question": "Planet apa yang terkecil di Tata Surya",
+                    "answer": "merkurius"
+                },
+                {
+                    "question": "Planet apa yang terbesar di Tata Surya",
+                    "answer": "jupiter"
+                },
+                {
+                    "question": "Planet apa yang terpanas di Tata Surya",
+                    "answer": "venus"
+                },
+                {
+                    "question": "Planet apa yang terdingin di Tata Surya",
+                    "answer": "neptunus"
+                },
+                {
+                    "question": "Planet apa yang disebut juga \"Bintang Senja\"",
+                    "answer": "merkurius"
+                },
+                {
+                    "question": "Planet apa yang disebut juga \"Bintang Fajar\"",
+                    "answer": "venus"
+                },
+                {
+                    "question": "Planet apa yang disebut juga \"Kembaran Mars\"",
+                    "answer": "bumi"
+                },
+                {
+                    "question": "Planet apa yang disebut juga \"Planet Merah\"",
+                    "answer": "mars"
+                },
+                {
+                    "question": "Planet apa yang disebut juga \"Kakek Jupiter\"",
+                    "answer": "saturnus"
+                },
+                {
+                    "question": "Planet apa yang disebut juga \"Kembaran Uranus\"",
+                    "answer": "Neptunus"
+                },
+                {
+                    "question": "Merkurius, Venus, Bumi, dan Mars termasuk planet ...",
+                    "answer": "dalam"
+                },
+                {
+                    "question": "Jupiter, Saturnus, Uranus, dan Neptunus termasuk planet ...",
+                    "answer": "luar"
+                },
+                {
+                    "question": "Planet Dalam dan Planet Luar dipisahkan oleh sabuk ...",
+                    "answer": "asteroid"
+                },
+                {
+                    "question": "Planet pertama adalah planet ...",
+                    "answer": "merkurius"
+                },
+                {
+                    "question": "Planet kedua adalah planet ...",
+                    "answer": "venus"
+                },
+                {
+                    "question": "Planet ketiga adalah planet ...",
+                    "answer": "bumi"
+                },
+                {
+                    "question": "Planet keempat adalah planet ...",
+                    "answer": "mars"
+                },
+                {
+                    "question": "Planet kelima adalah planet ...",
+                    "answer": "jupiter"
+                }
+            ]
         }
     ]
 }
