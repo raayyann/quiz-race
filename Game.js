@@ -39,9 +39,7 @@ class Game {
     }
 
     getRandomQuiz() {
-        console.log(Math.floor(Math.random() * QuizList.length));
         let quiz = QuizList[Math.floor(Math.random() * QuizList.length)];
-        console.log(quiz.data.name);
         quiz.questions.sort(() => Math.random() - 0.5);
         return quiz;
     }
