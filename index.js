@@ -80,4 +80,4 @@ io.on("connection", (socket) => {
     });
 });
 
-server.listen(process.env.SERVER_PORT);
+server.listen(8080);
