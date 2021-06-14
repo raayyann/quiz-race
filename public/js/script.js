@@ -157,9 +157,9 @@ socket.on("updatePlayersProgress", (data) => {
 });
 
 socket.on("chat", (data) => {
-    let chat = document.querySelector("div");
-    chatList.appendChild(chat);
-    chat.outerHTML = `<div class="card mb-2 text-dark">
+    chatList.innerHTML =
+        chatList.innerHTML +
+        `<div class="card mb-2 text-dark">
                         <div class="card-body">
                             <h5 class="card-title">${data[0]}</h5>
                             <p class="card-text">${data[1]}</p>
