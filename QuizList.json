@@ -122,14 +122,14 @@
                 },
                 {
                     "question": "Planet apa yang disebut juga \"Bintang Senja\"",
-                    "answer": "merkurius"
+                    "answer": "venus"
                 },
                 {
                     "question": "Planet apa yang disebut juga \"Bintang Fajar\"",
                     "answer": "venus"
                 },
                 {
-                    "question": "Planet apa yang disebut juga \"Kembaran Mars\"",
+                    "question": "Di Planet apa kita tinggal?",
                     "answer": "bumi"
                 },
                 {
@@ -137,11 +137,11 @@
                     "answer": "mars"
                 },
                 {
-                    "question": "Planet apa yang disebut juga \"Kakek Jupiter\"",
+                    "question": "Planet apa yang memiliki cincin paling terlihat",
                     "answer": "saturnus"
                 },
                 {
-                    "question": "Planet apa yang disebut juga \"Kembaran Uranus\"",
+                    "question": "Planet apa yang terletak setelah Uranus",
                     "answer": "Neptunus"
                 },
                 {
